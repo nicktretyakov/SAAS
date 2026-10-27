@@ -1,0 +1,16 @@
+warning: unused config key `registry.protocol` in `/home/n/.cargo/config.toml`
+warning: unused config key `registry.protocol` in `/home/n/.cargo/config.toml`
+   Compiling hyper v0.14.28
+   Compiling saas-adapter v0.2.0 (/mnt/samsung/RUST/saas-substrate/adapter)
+   Compiling saas-api v0.2.0 (/mnt/samsung/RUST/saas-substrate/api)
+warning: unused dependency `tracing-subscriber`
+  --> adapter/Cargo.toml:23:1
+   |
+23 | tracing-subscriber = "=0.3.18"
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `tracing-subscriber`
+warning: `saas-adapter` (manifest) generated 1 warning
+    Finished `release` profile [optimized] target(s) in 11.26s
+     Running `target/release/saas-api`
